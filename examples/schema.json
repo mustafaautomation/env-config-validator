@@ -1,0 +1,9 @@
+{
+  "DATABASE_URL": { "type": "url", "required": true, "description": "PostgreSQL connection string" },
+  "PORT": { "type": "port", "required": false, "default": "3000" },
+  "NODE_ENV": { "type": "enum", "enum": ["development", "staging", "production"], "required": true },
+  "API_KEY": { "type": "string", "required": true, "pattern": "^sk-[a-zA-Z0-9]{32,}$" },
+  "DEBUG": { "type": "boolean", "required": false, "default": "false" },
+  "ADMIN_EMAIL": { "type": "email", "required": true },
+  "MAX_RETRIES": { "type": "number", "required": false, "min": 1, "max": 10, "default": "3" }
+}
