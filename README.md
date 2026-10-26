@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/mustafaautomation/env-config-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/mustafaautomation/env-config-validator/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-6.0-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 
 Validate `.env` files against JSON schemas before deployment. Catches missing variables, type errors, invalid URLs, wrong ports, and enum mismatches. No more "it works on my machine."
 
